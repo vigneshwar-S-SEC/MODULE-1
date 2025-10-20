@@ -27,7 +27,7 @@ int main()
 Thus, the program to find the ASCII value of a given character was executed and verified successfully.
 
 ---
----
+
 #
 ---
 # EXP NO:2 C PROGRAM TO COMPARE TWO NUMBERS USING NESTED IF-ELSE
@@ -79,9 +79,9 @@ return 0;
 The program to compare two numbers and find the largest using nested if-else was completed successfully.
 
 ---
----
-#
 
+#
+---
 
 # EXP NO:3 C PROGRAM TO FIND THE AREA OF A RECTANGLE
 
@@ -124,9 +124,9 @@ int main(){
 The C program to calculate the area of a rectangle using floating-point numbers was executed and verified successfully.
 
 ---
----
-#
 
+#
+---
 # EXP NO:4 C PROGRAM TO CHECK WHETHER A CHARACTER IS AN ALPHABET OR NOT
 
 ## Aim:
@@ -170,9 +170,9 @@ int main(){
 The program to check if a given character is an alphabet was executed and verified successfully using conditional logic.
 
 ---
----
-#
 
+#
+---
 # EXP NO:5 C PROGRAM TO CHECK POSITIVE OR NEGATIVE USING IF-ELSE
 
 ## Aim:
