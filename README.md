@@ -25,6 +25,7 @@ int main()
 Thus, the program to find the ASCII value of a given character was executed and verified successfully.
 
 ---
+---
 #
 
 # EXP NO:2 C PROGRAM TO COMPARE TWO NUMBERS USING NESTED IF-ELSE
