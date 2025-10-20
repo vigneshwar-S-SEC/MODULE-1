@@ -70,8 +70,12 @@ return 0;
 ## Output:
 ![alt text](EX_NO2.png)
 ## Result:
+
 The program to compare two numbers and find the largest using nested if-else was completed successfully.
----
+
+#
+
+
 # EXP NO:3 C PROGRAM TO FIND THE AREA OF A RECTANGLE
 
 ## Aim:
