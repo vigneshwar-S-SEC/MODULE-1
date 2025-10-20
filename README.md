@@ -23,6 +23,7 @@ int main()
 ![alt text](EX_NO1.png)
 ## RESULT:
 Thus, the program to find the ASCII value of a given character was executed and verified successfully.
+
 ---
 #
 
@@ -73,6 +74,7 @@ return 0;
 ## Result:
 
 The program to compare two numbers and find the largest using nested if-else was completed successfully.
+
 ---
 #
 
@@ -116,6 +118,7 @@ int main(){
 ## Result:
 
 The C program to calculate the area of a rectangle using floating-point numbers was executed and verified successfully.
+
 ---
 #
 
@@ -160,6 +163,7 @@ int main(){
 ## Result:
 
 The program to check if a given character is an alphabet was executed and verified successfully using conditional logic.
+
 ---
 #
 
