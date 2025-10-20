@@ -6,7 +6,7 @@ To write a C program to find and display the ASCII value of a given character.
 1. Start
 2. Declare a character variable ch.
 3. Get a character input from the user using scanf().
-4. Print the ASCII value of the entered character using print().
+4. Print the ASCII value of the entered character using printf().
 5. Stop the program.
 
 ## PROGRAM:
@@ -23,8 +23,7 @@ int main()
 ![alt text](EX_NO1.png)
 ## RESULT:
 Thus, the program to find the ASCII value of a given character was executed and verified successfully.
-
-
+---
 
 # EXP NO:2 C PROGRAM TO COMPARE TWO NUMBERS USING NESTED IF-ELSE
 
@@ -72,7 +71,7 @@ return 0;
 ![alt text](EX_NO2.png)
 ## Result:
 The program to compare two numbers and find the largest using nested if-else was completed successfully.
-
+---
 # EXP NO:3 C PROGRAM TO FIND THE AREA OF A RECTANGLE
 
 ## Aim:
@@ -112,3 +111,88 @@ int main(){
 ## Result:
 
 The C program to calculate the area of a rectangle using floating-point numbers was executed and verified successfully.
+---
+# EXP NO:4 C PROGRAM TO CHECK WHETHER A CHARACTER IS AN ALPHABET OR NOT
+
+## Aim:
+
+Write a C program that takes a single character input from the user and checks if it is a letter (a-z or A-Z) using an if-else statement.
+
+## Algorithm:
+
+1. Start.
+
+2. Declare a character variable, ch.
+
+3. Get a single character input from the user and store it in ch.
+
+4. Check if ch falls in the range of lowercase letters ('a' to 'z') OR the range of uppercase letters ('A' to 'Z').
+
+5. If True, print "Alphabet."
+
+6. If False, print "Not an alphabet."
+
+7. Stop.
+
+## Program:
+```
+#include <stdio.h>
+int main(){
+    char ch;
+    scanf("%c",&ch);
+    if ((ch>='a'&&ch<='z')||(ch>='A'&&ch<='Z'))
+        printf("Alphabet.");
+    else
+        printf("Not an alphabet.");
+    return 0;
+}
+```
+
+## Output:
+![alt text](EX_NO4.png)
+## Result:
+
+The program to check if a given character is an alphabet was executed and verified successfully using conditional logic.
+---
+
+# EXP NO:5 C PROGRAM TO CHECK POSITIVE OR NEGATIVE USING IF-ELSE
+
+## Aim:
+
+Write a C program to read a whole number from the user and determine if it is a positive number (greater than 0) or a negative number (0 or less).
+
+## Algorithm:
+
+1. Start.
+
+2. Declare an integer variable, n.
+
+3. Get an integer input from the user and store it in n.
+
+4. Check the condition: Is n greater than 0?
+
+5. If True (n > 0), print that the number is positive.
+
+6. If False (the else block), print that the number is negative (this covers 0 and any number less than 0).
+
+7. Stop.
+
+## Program:
+```
+#include <stdio.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+    if (n>0)
+        printf("%d is positive.",n);
+    else
+        printf("%d is negative.",n);
+    return 0;
+}
+```
+
+## Output:
+![alt text](EX_NO5.png)
+## Result:
+
+The C program to determine if an integer is positive or negative using an if-else statement was successfully executed and verified.
