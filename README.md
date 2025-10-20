@@ -42,9 +42,9 @@ Write a C program to read two whole numbers and figure out if they are the same 
 
 4. If not equal, print that fact. Then, check:
 
-  . If B is bigger than A, say B is larger.
+    - If B is bigger than A, say B is larger.
 
-  .Otherwise, say A is larger.
+    - Otherwise, say A is larger.
 
 5. Stop.
 
@@ -69,6 +69,46 @@ return 0;
 ```
 
 ## Output:
-![alt text](exno2.png)
+![alt text](EX_NO2.png)
 ## Result:
 The program to compare two numbers and find the largest using nested if-else was completed successfully.
+
+# EXP NO:3 C PROGRAM TO FIND THE AREA OF A RECTANGLE
+
+## Aim:
+To write a C program that calculates the area of a rectangle by taking its length and breadth as input using floating-point numbers.
+
+## Algorithm:
+1. Start.
+
+2. Declare three floating-point variables: a (for length), b (for breadth), and A (for area).
+
+3. Get the length (a) and breadth (b) from the user.
+
+4. Calculate the area using the formula: 
+    \[
+         $$A = a \times b$$
+    \]
+
+
+5. Display the calculated area (A), formatted to show two decimal places.
+
+6. Stop.
+
+## Program:
+```
+#include <stdio.h>
+int main(){
+    float a,b,A;
+    scanf("%f %f",&a,&b);
+    A = a * b;
+    printf("Area of rectangle=%.2f sq.units",A);
+    return 0;
+}
+```
+
+## Output:
+![alt text](EX_NO3.png)
+## Result:
+
+The C program to calculate the area of a rectangle using floating-point numbers was executed and verified successfully.
